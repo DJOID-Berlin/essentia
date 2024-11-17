@@ -75,4 +75,4 @@ repair-wheel-command = [
 
 [build-system]
 
-requires = ["wheel", "setuptools", "oldest-supported-numpy"]
+requires = ["wheel", "setuptools", "numpy==1.26.4"]

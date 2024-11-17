@@ -211,8 +211,7 @@ FFMPEG_AUDIO_FLAGS_MUXERS="
 
 # see http://www.fftw.org/install/windows.html
 FFTW_FLAGS="
-    --enable-float \
-    --enable-sse2 \
+    --enable-float \    
     --with-incoming-stack-boundary=2 \
     --with-our-malloc16
 "
